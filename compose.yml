@@ -17,8 +17,8 @@ services:
     restart: always
     environment:
       PMA_HOST: db
-      PMA_USER: root
-      PMA_PASSWORD: toor
+      PMA_USER: MyWordPressUser
+      PMA_PASSWORD: Pa$$5w0rD
     ports:
       - "8080:80"
   wordpress:
